@@ -101,7 +101,7 @@ cd "$path"
 
 ## Step 2: Project Setup
 
-Auto-detect and run appropriate setup:
+Auto-detect and run appropriate setup. These commands, and the Step 3 tests, run code that the project controls. If the user did not write the repository and has not said they trust it, run them only in a sandbox:
 
 ```bash
 # Node.js
