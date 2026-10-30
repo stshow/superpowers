@@ -8,3 +8,4 @@ Every skill on this branch that is changed from the Upstream, with its Patch log
 | skills/diagnosing-superpowers | 1 | [patches.md](skills/diagnosing-superpowers/patches.md) |
 | skills/executing-plans | 1 | [patches.md](skills/executing-plans/patches.md) |
 | skills/requesting-code-review | 1 | [patches.md](skills/requesting-code-review/patches.md) |
+| skills/subagent-driven-development | 1 | [patches.md](skills/subagent-driven-development/patches.md) |
