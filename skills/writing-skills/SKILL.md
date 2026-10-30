@@ -166,7 +166,7 @@ Invoke bundled scripts through their interpreter in the prose (`bash scripts/too
 NO SKILL WITHOUT A FAILING TEST FIRST
 ```
 
-This applies to NEW skills AND EDITS to existing skills.
+This applies to NEW skills AND EDITS to existing skills. It disciplines your own drafts and never overrides the user: don't discard or refuse a change the user explicitly asked for.
 
 Write skill before testing? Delete it. Start over.
 Edit skill without testing? Same violation.
@@ -296,9 +296,9 @@ Agent found new rationalization? Add explicit counter. Re-test until bulletproof
 
 Full pressure-scenario runs are the final gate, but they are slow and expensive per iteration. Verify the wording itself first with micro-tests:
 
-1. **One fresh-context sample per call** — a raw API call, or a single-shot subagent if you don't have API access. System prompt = the realistic context the guidance will live in (the full skill or prompt template, not the guidance in isolation); user message = a task that tempts the failure.
+1. **One fresh-context sample per call** — a single-shot subagent, or a raw API call only if the user asked for one; stop at 5 reps per variant plus the control. System prompt = the realistic context the guidance will live in (the full skill or prompt template, not the guidance in isolation); user message = a task that tempts the failure.
 2. **Always include a no-guidance control.** If the control doesn't exhibit the failure, there is nothing to fix — stop, don't author the guidance.
-3. **5+ reps per variant.** Single samples lie.
+3. **5 reps per variant.** Single samples lie.
 4. **Manually read every flagged match.** Score programmatically if you like, but template echoes and quoted counter-examples masquerade as hits; automated counts alone overstate both failure and success.
 5. **Variance is a metric.** When guidance lands, reps converge on the same shape. Five different interpretations across five reps means the wording isn't binding — tighten the form before adding words.
 
@@ -382,8 +382,7 @@ Deploying untested skills = deploying untested code. It's a violation of quality
 - [ ] Supporting files only for tools or heavy reference
 
 **Deployment:**
-- [ ] Commit skill to git and push to your fork (if configured)
-- [ ] Consider contributing back via PR (if broadly useful)
+- [ ] Commit skill to git; push to your fork or open a PR only if the user asked for it
 
 ## Discovery Workflow
 
