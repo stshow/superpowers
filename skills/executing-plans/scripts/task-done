@@ -16,6 +16,7 @@ fi
 
 plan=$1
 n=$2
+case "$n" in ''|*[!0-9]*) echo "bad TASK_NUMBER: $n" >&2; exit 2 ;; esac
 base=$3
 shift 4
 sdd="$(cd "$(dirname "$0")/../../subagent-driven-development/scripts" && pwd)"

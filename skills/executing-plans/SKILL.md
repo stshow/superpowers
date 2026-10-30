@@ -5,6 +5,8 @@ description: Use when executing an implementation plan in the current session as
 
 # Executing Plans
 
+Sibling directories belong to other plans; leave them alone.
+
 Execute the plan yourself, task by task, in this session: no implementer
 subagent per task, no reviewer per task. One fresh-context review of the
 whole branch at the end.
@@ -298,8 +300,7 @@ message is the only place the decisions you took on your human partner's
 behalf — and the findings you chose not to act on — reach them.
 
 When the final review is clean and its fixes are committed, delete this
-plan's workspace directory — the git history is the record now. Sibling
-directories belong to other plans; leave them alone.
+plan's workspace directory — the git history is the record now.
 
 Use superpowers:finishing-a-development-branch.
 

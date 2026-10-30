@@ -6,3 +6,4 @@ Every skill on this branch that is changed from the Upstream, with its Patch log
 | --- | --- | --- |
 | skills/brainstorming | 1 | [patches.md](skills/brainstorming/patches.md) |
 | skills/diagnosing-superpowers | 1 | [patches.md](skills/diagnosing-superpowers/patches.md) |
+| skills/executing-plans | 1 | [patches.md](skills/executing-plans/patches.md) |
