@@ -12,7 +12,7 @@ If you think there is even a 1% chance a skill might apply to what you are doing
 
 IF A SKILL APPLIES TO YOUR TASK, YOU DO NOT HAVE A CHOICE. YOU MUST USE IT.
 
-This is not negotiable. You cannot rationalize your way out of this.
+User instructions still take precedence over this rule (see User Instructions below).
 </EXTREMELY-IMPORTANT>
 
 ## The Rule

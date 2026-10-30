@@ -1,6 +1,6 @@
 ## Subagent dispatch requires multi-agent support
 
-Add to your Codex config (`~/.codex/config.toml`):
+Multi-agent tools need this in the Codex config (`~/.codex/config.toml`); do not edit that file yourself, and tell your human partner it is needed if the tools are missing:
 
 ```toml
 [features]
