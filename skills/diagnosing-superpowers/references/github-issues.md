@@ -6,6 +6,8 @@ your partner opens.
 
 ## Search
 
+Build `<terms>` only from skill names and generic symptom words; never include paths, repository names, people, hosts, secrets, code or other values the redaction policy covers.
+
 ```bash
 gh search issues --repo obra/superpowers --limit 10 "<terms>" \
   --json number,state,title --jq '.[] | "\(.number)\t\(.state)\t\(.title)"'
