@@ -1,0 +1,27 @@
+# esr reviews
+
+Every skill in obra/superpowers at commit 2ce8aa15d05bd57213e6f746f953aafb7ded7a8b, reviewed on 2026-10-30, with its Choice. A dropped skill is not on this branch.
+
+| Skill | Choice | Review |
+| --- | --- | --- |
+| skills/brainstorming | fix (re-checked and applied) | [REVIEW.md](skills/brainstorming/REVIEW.md) |
+| skills/diagnosing-superpowers | fix (re-checked and applied) | [REVIEW.md](skills/diagnosing-superpowers/REVIEW.md) |
+| skills/dispatching-parallel-agents | keep | [REVIEW.md](skills/dispatching-parallel-agents/REVIEW.md) |
+| skills/executing-plans | fix (re-checked and applied) | [REVIEW.md](skills/executing-plans/REVIEW.md) |
+| skills/finishing-a-development-branch | keep | [REVIEW.md](skills/finishing-a-development-branch/REVIEW.md) |
+| skills/receiving-code-review | keep | [REVIEW.md](skills/receiving-code-review/REVIEW.md) |
+| skills/requesting-code-review | fix (re-checked and applied) | [REVIEW.md](skills/requesting-code-review/REVIEW.md) |
+| skills/subagent-driven-development | fix (re-checked and applied) | [REVIEW.md](skills/subagent-driven-development/REVIEW.md) |
+| skills/systematic-debugging | fix (re-checked and applied) | [REVIEW.md](skills/systematic-debugging/REVIEW.md) |
+| skills/test-driven-development | keep | [REVIEW.md](skills/test-driven-development/REVIEW.md) |
+| skills/using-git-worktrees | fix (re-checked and applied) | [REVIEW.md](skills/using-git-worktrees/REVIEW.md) |
+| skills/using-superpowers | fix (re-checked and applied) | [REVIEW.md](skills/using-superpowers/REVIEW.md) |
+| skills/verification-before-completion | keep | [REVIEW.md](skills/verification-before-completion/REVIEW.md) |
+| skills/writing-plans | keep | [REVIEW.md](skills/writing-plans/REVIEW.md) |
+| skills/writing-skills | fix (re-checked and applied) | [REVIEW.md](skills/writing-skills/REVIEW.md) |
+
+esr reads the block below on the next run to remember these Choices; editing it makes esr ask again.
+
+```esr-choices
+{"commit":"2ce8aa15d05bd57213e6f746f953aafb7ded7a8b","skills":[{"choice":"fix","fix":"sha256:be0be04b315d531678fa543dc8be282020816ca1c6d22fc8feb09de12b27ad51","siblings":[],"skill":"skills/brainstorming","tree":"3d8a23691e919f5acfd31d45f76bdc168d24ca1b"},{"choice":"fix","fix":"sha256:c774ef75e2b67ec4c649230895839cc5d18220c9663d58ea6ad4e16e06133166","siblings":[],"skill":"skills/diagnosing-superpowers","tree":"effb02c345170011be4470c73b99530de43182a7"},{"choice":"keep","fix":null,"siblings":[],"skill":"skills/dispatching-parallel-agents","tree":"15697cb0726c26a66bff737494e8b5266667ba0c"},{"choice":"fix","fix":"sha256:5cdab1f8294e9f4e286a033ce5cd91b6aef44a6423c544f368ee69e816ce3db3","siblings":[{"files":"sha256:90072d0f6e3bff12ce2add97e301bdd590793d07983e7cabdc671c0ab708482b","skill":"skills/requesting-code-review"},{"files":"sha256:68d43692d45a50ee9504ca3d4edb0d410485a5f61c12d8d48e3b6c3135b98648","skill":"skills/subagent-driven-development"},{"files":"sha256:89f5a8286203a293215c04c3f3c553a33d48975622036d7bf1e03ba538263a02","skill":"skills/using-superpowers"}],"skill":"skills/executing-plans","tree":"1374506e051a95c35f04654ebde9c5d845d7c7cb"},{"choice":"keep","fix":null,"siblings":[],"skill":"skills/finishing-a-development-branch","tree":"3b1205aa5038c71946077dd63b9e71b447729e70"},{"choice":"keep","fix":null,"siblings":[],"skill":"skills/receiving-code-review","tree":"b5e154fc3ec7a6a0b1e710eebacc2168620cc428"},{"choice":"fix","fix":"sha256:05593f603c646b7952bd3898f29a61b2ea98c08b84a502433d88c3fef4a81f48","siblings":[],"skill":"skills/requesting-code-review","tree":"f4a6749898702895ea4fd57c7f186cf43205b99a"},{"choice":"fix","fix":"sha256:d6dbaa1e36679befe391c7f45d5f4f683b547028b47ec382358e1989ab10560c","siblings":[{"files":"sha256:90072d0f6e3bff12ce2add97e301bdd590793d07983e7cabdc671c0ab708482b","skill":"skills/requesting-code-review"}],"skill":"skills/subagent-driven-development","tree":"98c875856cf40765616a4565f09b437f0c58992b"},{"choice":"fix","fix":"sha256:bf47a67f7d72199f85c12d095c1be674fb91d712e1491c974076180f551d6306","siblings":[],"skill":"skills/systematic-debugging","tree":"108961c080a6837ad8a188a553e593cc5e6df62d"},{"choice":"keep","fix":null,"siblings":[],"skill":"skills/test-driven-development","tree":"847144cf0824095922c0d4875648b9fa74877e1a"},{"choice":"fix","fix":"sha256:515e5dccdc354940dc6479cc5f5b973511b1feb0c2cc34f695d6c40535cb4513","siblings":[],"skill":"skills/using-git-worktrees","tree":"d2b8357b922667a091bfe967840abf5ae84ce99c"},{"choice":"fix","fix":"sha256:1ad97e48c141e68068b3cfa15452a6682e7c094b4aeaf91cf71705fa6a25f634","siblings":[],"skill":"skills/using-superpowers","tree":"4c777432715fe58984d212a36aedc6a18472e512"},{"choice":"keep","fix":null,"siblings":[],"skill":"skills/verification-before-completion","tree":"a4cb0b69aaefeab540947a7f1642bdaad810e37a"},{"choice":"keep","fix":null,"siblings":[],"skill":"skills/writing-plans","tree":"cc97fa00eb2ccd4f283e34eb2ba06a48e1e679f7"},{"choice":"fix","fix":"sha256:deb09ab80f2cddffbf22fb6084c05984398731bac17fe2d62c6b0be86b19406b","siblings":[{"files":"sha256:347aebbd4f5546e1656685c1713542ff791d1eaebbfc5743507be46eb349b7ce","skill":"skills/subagent-driven-development"},{"files":"sha256:231ec6db65bd133c51476338b668d74742004c4ef4543793ba23ddaee2096f05","skill":"skills/using-superpowers"}],"skill":"skills/writing-skills","tree":"660ede63b84ce5d07ef28cccc2973165e2ca06e2"}],"upstream":"obra/superpowers","version":2}
+```
