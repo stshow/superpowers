@@ -94,7 +94,7 @@ You MUST complete each phase before proceeding to the next.
    echo "=== Env vars in build script: ==="
    printenv IDENTITY >/dev/null 2>&1 && echo "IDENTITY in environment" || echo "IDENTITY not in environment"
 
-   # Layer 3: Signing script
+   # Layer 3: Signing script (run only inside the CI job being debugged, never against the user's own keychain)
    echo "=== Keychain state: ==="
    security list-keychains
    security find-identity -v
